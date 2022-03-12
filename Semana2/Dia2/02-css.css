@@ -1,0 +1,30 @@
+h1 {
+/* propiedades */
+font-family: Impact;
+/* !important rompe la especificidad y chanca la propiedad */
+color: blue !important;
+}
+
+/* selector de clases 
+    -diferentes elementos SI pueden compartir las clases
+    - Un elemento puede tener varias clases y las propiedades se 
+*/
+
+.parrafo {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.importante { 
+    background-color: yellowgreen;
+    font-size: 26px;
+}
+
+#primero {
+    border: 2px solid slateblue;
+    /* width: 300px; */
+    width: 50%
+}
+
+/* usualmente, para CSS se utilizan Clases y para JS se suele utilizar ID's */
