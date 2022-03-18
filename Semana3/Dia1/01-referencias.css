@@ -1,6 +1,11 @@
 /* cuando utilizo el simbolo > estoy haciendo referencia a los primeros hijos */
+
 ol > li {
     color: purple;
+}
+
+#importante {
+    color: green;
 }
 
 ul > li {
@@ -8,6 +13,33 @@ ul > li {
 }
 
 /* todos los elementos que esten dentro a cualquier nivel van a ocupar estas propiedades */
+
 .heading h1 {
     background-color: aquamarine;
+}
+
+/* esta afectando a todos los p hijos en cualquier nivel */
+.textos p {
+    color: blueviolet;
+}
+
+/* esta afectando solamente a los p hijos en un primer nivel */
+.textos > p {
+    background-color: chocolate;
+}
+
+/* PSEUDOCLASES: referenciar e forma mas especifica propiedades CSS */
+/* Los tr que estan en tbody que sean impares tendran las siguientes propiedades: */
+/* odd = impares / even = pares */
+tbody tr:nth-of-type(odd){
+    background-color: lightgray;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: gray;
+}
+
+tbody tr:hover {
+    background-color: lightblue;
+    cursor: pointer
 }
