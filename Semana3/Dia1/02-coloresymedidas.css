@@ -38,3 +38,29 @@ h3 {
     font-size: 0.5em;
     padding: 1em;
 }
+
+h2 {
+    /* hexadecimal */
+    /* color:#RRGGBB */
+    /* menor 0 ----> F mayor */
+    /* color:#FF0000; */
+    /* color: #00ff00; */
+    /* color: #0000ff; */
+    color: #ff55ff;
+}
+
+h3 {
+    /* 0-255 */
+    /* color: rgb(45,200, 141); */
+    /* color: rgba (r, g, b, a [0-1]); */
+    color: rgba(45, 200, 141, 0.5);
+}
+
+/* hue, saturation, lightness */
+/* matiz, saturacion, iluminacion */
+/* grados, porcentaje, porcentaje */
+
+p {
+    background-color: hsl(90, 90%, 30%);
+}
+
