@@ -37,6 +37,8 @@ header {
 .menu-principal {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 39;
 }
 
 /* generales */
@@ -79,6 +81,8 @@ filter: drop-shadow(0 0 3px white);
 .contenido-header {
     padding: 100px;
     text-align: center;
+    position: relative;
+    z-index: 29;
 }
 
 /* del elem, con las clase contenido-header, de sus hijos en un primer nivel, * = Los quiero todos */
@@ -89,6 +93,7 @@ filter: drop-shadow(0 0 3px white);
 .onda {
     position: absolute;
     bottom: 0;
+    z-index: 19;
 }
 
 .filtro-header {
