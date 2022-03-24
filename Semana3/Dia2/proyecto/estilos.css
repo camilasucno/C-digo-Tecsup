@@ -46,6 +46,34 @@ a {
     text-decoration: none;
 }
 
+/* , es un Y */
+
+.Links, 
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+width: 150px;
+/* filter, tiene varios valores para las imagenes */
+/* drop-shadow dice si es transparente, le añade una sombra en el contorno */
+/* drop-shadow (despX despY TAMAÑO COLOR) */
+filter: drop-shadow(0 0 3px white);
+}
+
+.Links li {
+    margin-right: 15px;
+}
+
+.Links a {
+    color: white;
+}
+
+.social li {
+    margin-left: 15px;
+}
+
 .contenedor {
     max-width: 1000px;
     /* margin y para padding */
