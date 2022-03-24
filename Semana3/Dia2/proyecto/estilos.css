@@ -11,7 +11,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial;
+    /* si no encuentra una fuente, usara la siguiente */
+    font-family: 'Poppins', sans-serif;
     /* temporal */
     /* border: 1px solid #ddd; */
     /* color: var(--color1); */
