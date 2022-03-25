@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    border: 2px solid red;
+    height: 100vh;
+    display: grid;
+    /* grid-template-columns: tamaño X veces se generaran X columnas */
+    /* columnas */
+    /* fr= free space = fractions */
+    /* grid-template-columns: 1fr 1fr 1fr;  */
+    /* repeat: (cantidad, un tamaño) */
+    grid-template-columns: repeat(4, 150px);
+
+    /* filas */
+    grid-template-rows: 250px 250px 250px;
+}
+
+.item {
+    border: 2px solid blue;
+}
