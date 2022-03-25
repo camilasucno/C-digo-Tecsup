@@ -28,6 +28,9 @@
 
     /* padding: 40px; */
 
+    /* GRID IMPLÍCITO */
+    /* para los elementos que se han desplazado que estan "sobrando" */
+    /* repeat y minmax normal */
     grid-auto-columns: 400px;
     grid-auto-rows: 275px;
     grid-auto-flow: column; /*SEGUN EL FLOW SE DESPLAZAN HACIA LA DERECHA O HACIA ABAJO*/
