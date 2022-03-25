@@ -3,7 +3,7 @@
     width: 250px;
     height: 250px;
     border: 2px solid red;
-    background-color: lightgreen;
+    background-color: lightseagreen;
 
     /* propiedades de transicion */
     /* afectar a todo */
@@ -26,7 +26,21 @@
     /* transform: translate3d(12px, 20px, 50px); */
     /* transform: rotate(180deg); */
     /* transform: skewY(45deg); */
-    transform: skewX(45deg);
+    /* transform: skewX(45deg); */
 }
 
+#imagen {
+    width: 700px;
+    /* opacity: 0 a 1 (porcentual) */
+    opacity: 0.5;
+}
+
+#imagen:hover {
+    opacity: 1;
+    transform: scale(1.02);
+    /* box shadow ejeX ejeY Tamaño color */
+    box-shadow: 0 0 10px steelblue;
+    transition-property: all;
+    transition-duration: 1s;
+}
 
